@@ -120,11 +120,13 @@ body{
 
 
     @media only screen and (max-width: 568px){
-        
+        body{
+            overflow: none;
+        }
         .main-container{
             background-color: #0b1733;
             width: 100vw;
-            overflow: none;
+     
         }
         #bg{
             height: auto;
