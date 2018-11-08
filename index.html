@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" type="text/css" href="src/js/slick/slick.css"/>
+    <script defer src="./src/js/main.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="src/js/slick/slick.min.js"></script>
+    <title>International Desk</title>
+</head>
+<body>
+    <img id="bg" src="src/img/background.png" alt="">
+    <div class="main-container"> 
+        <div class="box-conteudo">
+            <img id="logo" src="./src/img/logo-International.png" alt="" style="padding:0;">
+            <aside class="box-textos">
+                <h1 class="animated slideInLeft delay-.6s">BEM-VINDO</h1>
+                <p class="animated fadeInUp delay-.5s"> 
+                    À rede mundial de Empresas Contábeis e Profissionais de Contabilidade, capacitados à participar
+                    do mercado internacional como protagonistas no processo de assessoramento
+                    dos investidores na realização de negócios internacionais.</p>          
+                </aside>
+                
+                <aside class="box-flags">
+                    <p id="texto-flag" class="animated fadeIn">Selecione o seu país de origem</p>
+                    <div class="menuCidades animated fadeIn">
+                                <div class="slide-1"><a href="http://sescon-mg.com.br" target="blank"> Minas Gerais</a></div>
+                                <div class="slide-1"><a href="https://www.sescon.org.br/site/" target="blank">  São Paulo</a></div>
+                                <div class="slide-1"><a href="http://sescon-rj.org.br" target="blank"> Rio de Janeiro</a></div> 
+                    </div>
+                    <div class="flags"> 
+                        <div><img id="bandeira" src="../LANDING PAGE - INTERNATIONAL DESK/src/img/br.png" alt=""></div>
+                        <div><img id="bandeira" src="../LANDING PAGE - INTERNATIONAL DESK/src/img/ch.png" alt=""></div>
+                        <div><img id="bandeira" src="../LANDING PAGE - INTERNATIONAL DESK/src/img/it.png" alt=""></div>
+                        <div><img id="bandeira" src="../LANDING PAGE - INTERNATIONAL DESK/src/img/ur.png" alt=""></div>
+                        <div><img id="bandeira" src="../LANDING PAGE - INTERNATIONAL DESK/src/img/ar.png" alt=""></div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <script>
+            $(".menuCidades").slick({
+                prevArrow: '<i class="fas fa-caret-up"></i>',
+                nextArrow:'<i class="fas fa-caret-down"></i>',
+                initialSlide: 1,
+                vertical: true,
+                horizontal: false,            
+            });
+        </script>
+    </body>
+    </html>
