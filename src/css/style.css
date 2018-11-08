@@ -17,7 +17,7 @@ body{
         filter: grayscale(100%);
         filter: gray; /* IE 6-9 */
     }
-    .menuCidades{
+    #menuCidades{
         width: 150px;
         flex-direction: column;
         justify-content: center;
@@ -42,11 +42,7 @@ body{
     a:visited{
         color: white;
     }
-    .link-menu{
-        border: 1px solid red;
-        text-align: center;
-        width: 100%;
-    }
+
     #bg{
         width: 100vw;
         height: 100vh;
