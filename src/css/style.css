@@ -171,14 +171,6 @@ h1{
     }
     
 }
-@media only screen and (max-width: 640px) {
-    
-    .flags img {
-        transition: ease-in-out .2s;
-        width:  55px;
-    }
-    
-}
 
 @media only screen and (max-width: 640px){
     
@@ -230,8 +222,9 @@ h1{
     }
     .box-flags{
         color: white;
-        width: 95%;
+        width: 75%;
     }
+    
     .flags{
         width: 90%;
         display: flex;
