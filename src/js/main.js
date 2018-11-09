@@ -1,7 +1,6 @@
 let bandeiras = document.querySelectorAll('#bandeira')
 let legendaFlag = document.querySelector('#texto-flag')
 let menuSlider = document.querySelector('#menuCidades')
-menuSlider.style.display = 'none'
 
 function MudarCor(){
     legendaFlag.style.display = 'none'
@@ -9,7 +8,7 @@ function MudarCor(){
     bandeiras[2].classList.add('grayscale')
     bandeiras[3].classList.add('grayscale')
     bandeiras[4].classList.add('grayscale')
-    if (menuSlider.style.display === "none"){
+    if (menuSlider.style.display = "none"){
         menuSlider.style.display = "block";      
     }   
     else { 
