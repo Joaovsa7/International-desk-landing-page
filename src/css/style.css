@@ -44,12 +44,14 @@ a:visited{
 }
 
 #bg{
+    background-image: url('../img/background.png');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
-    z-index: -2;
-    position: fixed;
+    z-index: -1;
+    position: absolute;
 }
 .main-container{
     width: 100vw;
@@ -116,9 +118,27 @@ h1{
     transition:  .2s;
 }
 
+@media only screen and (max-width: 768px){
+    #bg{
+      background-position-x: 10%;
+    }
+
+}
+@media only screen and (max-width: 640px){
+    h1{
+        font-size: 45px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+    }
+    .flags img {
+        transition: ease-in-out .2s;
+        width:  55px;
+    }
+}
 
 @media only screen and (max-width: 568px){
-    
+
     .main-container{
         background-color: #0b1733;
         width: 100vw;
@@ -127,19 +147,19 @@ h1{
         
     }
     #bg{
-        width: 100vw;
-        height: auto;
-        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.337);
+        background-blend-mode: overlay;
+        height: 35%;
+        background-size: cover;
+        z-index: 0;
         margin: 0; padding: 0;
-    }
-    
+    } 
     a{
         font-size: 13px;
     }
     
     .box-conteudo{
-        border: 1px solid red;
-        z-index: 2;
+        z-index: 1;
         height:  75%;
         margin: 0;
         padding-left: 10px;
@@ -166,7 +186,6 @@ h1{
     }
     #logo{
         width: 60%;
-        margin: 0 auto;
     }
     .box-flags{
         color: white;
