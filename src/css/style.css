@@ -206,29 +206,51 @@ h1{
         
     }
 }
-
-@media only screen and (max-width: 640px) and (orientation:landscape){
+@media only screen and (max-width: 880px) and (orientation:landscape){
     .main-container{
         height: 100%;
         overflow-y: none;
+        background-color: #0b1733;
+        width: 100vw;
     }
     .box-conteudo{
-        margin-top: 8%;
         z-index: 1;
-        height: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
     }
     #bg{
         display: block;
         z-index: 0;
-        height: 50%;
+        height: 25vh;
     } 
     #logo{
         max-width: 40%;
     }
     .flags{
-        width: 50%;
+        width: 60%;
+    }
+    .flags img {
+        transition: ease-in-out .2s;
+        width:  40px;
+    }
+    h1{
+        font-size: 35px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+    }
+    .box-textos > p{
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.4;
+        text-align: left;
+        width: 92%;
+        padding-left: 0;
     }
 }
+
 
 @media only screen and (max-width:320px){
     h1{
