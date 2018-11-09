@@ -146,7 +146,7 @@ h1{
         overflow: none!important;
     }
     #bg{
-        background-color: rgba(0, 0, 0, 0.337);
+        background-color: rgba(0, 0, 0, 0.253);
         background-blend-mode: overlay;
         height: 35%;
         background-size: cover;
@@ -220,6 +220,7 @@ h1{
         justify-content: space-around;
     }
     #bg{
+        background-color: none;
         display: block;
         z-index: 0;
         height: 30vh;
