@@ -122,7 +122,7 @@ body{
             width: 100vw;
             height: 100vh;
             overflow: none!important;
-
+            
         }
         #bg{
             width: 100vw;
@@ -139,7 +139,7 @@ body{
             border: 1px solid red;
             z-index: 2;
             height:  75%;
-            position: relative;
+            position:absolute;
             margin: 0;
             padding-left: 10px;
         }
