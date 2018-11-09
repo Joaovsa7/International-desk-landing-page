@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto';
 }
 #logo{
-    width: 50%;
+    width: 70%;
 }
 .cor{
     transition:  ease-in .4s;
