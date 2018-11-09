@@ -23,41 +23,26 @@ body{
     justify-content: center;
     align-content: flex-start;
     animation: fadeInDownb .3s linear;
-    
 }
 #chamada-texto{
-    animation: fadeInDownTitle .4s linear;
-}
-#chamada-texto-p{
-    animation: fadeInDownTitlep .3s linear;
+    animation: fadeInDownTitle .2s linear;
 }
 @keyframes fadeInDownTitle{
     from {
         opacity: 0;
-        transform: translateY(-30%)
+        transform: translate3d(0, -25%, 0);
     }
     
     to {
         opacity: 1; 
-        transform: translateY(0) 
-    }
-}
-@keyframes fadeInDownTitlep{
-    from {
-        opacity: 0;
-        transform: translateY(-20%)
-    }
-    
-    to {
-        opacity: 1; 
-        transform: translateY(0) 
+        transform: translate3d(0, 0, 0);
     }
 }
 
 @keyframes fadeInDownb {
     from {
         transform: translate3d(0, -20%, 0);
-        visibility: visible;
+        opacity: 0;
     }
     
     to {
