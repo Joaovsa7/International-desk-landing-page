@@ -222,7 +222,8 @@ h1{
     #bg{
         display: block;
         z-index: 0;
-        height: 25vh;
+        height: 30vh;
+        background-position-y: 10%;
     } 
     #logo{
         max-width: 40%;
