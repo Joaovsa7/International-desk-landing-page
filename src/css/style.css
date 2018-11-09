@@ -124,7 +124,7 @@ h1{
     }
 
 }
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 640px) {
     h1{
         font-size: 45px;
         text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
@@ -137,14 +137,13 @@ h1{
     }
 }
 
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 640px){
 
     .main-container{
         background-color: #0b1733;
         width: 100vw;
         height: 100vh;
         overflow: none!important;
-        
     }
     #bg{
         background-color: rgba(0, 0, 0, 0.337);
@@ -205,6 +204,29 @@ h1{
         max-width: 100px;
         width: 30%;
         
+    }
+}
+
+@media only screen and (max-width: 640px) and (orientation:landscape){
+    .main-container{
+        height: 100%;
+        overflow-y: none;
+    }
+    .box-conteudo{
+        margin-top: 8%;
+        z-index: 1;
+        height: 100%;
+    }
+    #bg{
+        display: block;
+        z-index: 0;
+        height: 50%;
+    } 
+    #logo{
+        max-width: 40%;
+    }
+    .flags{
+        width: 50%;
     }
 }
 
