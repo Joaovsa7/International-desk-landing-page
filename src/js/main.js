@@ -8,7 +8,7 @@ function MudarCor(){
     bandeiras[2].classList.add('grayscale')
     bandeiras[3].classList.add('grayscale')
     bandeiras[4].classList.add('grayscale')
-    if (menuSlider.style.display = "none"){
+    if (menuSlider.style.display === "none"){
         menuSlider.style.display = "block";      
     }   
     else { 
