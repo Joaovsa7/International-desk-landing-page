@@ -26,17 +26,31 @@ body{
     
 }
 #chamada-texto{
-    animation: fadeInDownTitle 2s linear;
+    animation: fadeInDownTitle .4s linear;
+}
+#chamada-texto-p{
+    animation: fadeInDownTitlep .3s linear;
 }
 @keyframes fadeInDownTitle{
     from {
         opacity: 0;
-        transform: translate3d(0, -15%, 0);
+        transform: translateY(-30%)
     }
     
     to {
         opacity: 1; 
-        transform: translate3d(0, 0, 0);
+        transform: translateY(0) 
+    }
+}
+@keyframes fadeInDownTitlep{
+    from {
+        opacity: 0;
+        transform: translateY(-20%)
+    }
+    
+    to {
+        opacity: 1; 
+        transform: translateY(0) 
     }
 }
 
@@ -173,7 +187,7 @@ h1{
     .main-container{
         background-color: #0b1733;
         width: 100vw;
-        height: 96vh;
+        height: 100vh;
         overflow: none!important;
     }
     #bg{
