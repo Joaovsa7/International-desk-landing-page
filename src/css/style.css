@@ -32,7 +32,7 @@ body{
     animation: fadeInDownTitle .2s linear;
 }
 #chamada-texto-p{
-    animation: fadeInDownTitle .4s linear;
+    animation: fadeInDownTitleB .3s linear;
 }
 @keyframes fadeInDownTitle{
     from {

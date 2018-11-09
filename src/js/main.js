@@ -1,7 +1,6 @@
 let bandeiras = document.querySelectorAll('#bandeira')
 let legendaFlag = document.querySelector('#texto-flag')
 let menuSlider = document.querySelector('#menuCidades')
-let containerClique = document.querySelector('.main-container')
 menuSlider.style.display = 'none'
 
 function MudarCor(){
