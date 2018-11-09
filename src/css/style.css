@@ -23,7 +23,6 @@ body{
     justify-content: center;
     align-content: flex-start;
     animation: fadeInDownb .3s linear;
-    display: none;
 }
 .box-menu-cidades{
     border: 1px solid red;
