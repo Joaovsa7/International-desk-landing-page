@@ -24,6 +24,10 @@ body{
     align-content: flex-start;
     animation: fadeInDownb .3s linear;
 }
+.box-menu-cidades{
+    border: 1px solid red;
+    width: 100%;
+}
 #chamada-texto{
     animation: fadeInDownTitle .2s linear;
 }

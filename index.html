@@ -13,7 +13,7 @@
     <title>International Desk</title>
 </head>
 <body>
-<div id="bg"></div>
+    <div id="bg"></div>
     <div class="main-container"> 
         <div class="box-conteudo">
             <img id="logo" src="./src/img/logo-International.png" alt="" style="padding:0;">
@@ -27,11 +27,14 @@
                 
                 <aside class="box-flags">
                     <p id="texto-flag" class="animated fadeIn">Selecione o seu país de origem</p>
-                    <div id="menuCidades">
-                        <div class="slide-1"><a href="http://sescon-mg.com.br" target="blank"> Minas Gerais</a></div>
-                        <div class="slide-1"><a href="https://www.sescon.org.br/site/" target="blank">  São Paulo</a></div>
-                        <div class="slide-1"><a href="http://sescon-rj.org.br" target="blank"> Rio de Janeiro</a></div> 
+                    <div class="box-menu-cidades" class="animated fadeIn">
+                        <div id="menuCidades">
+                            <div class="slide-1"><a href="http://sescon-mg.com.br" target="blank"> Minas Gerais</a></div>
+                            <div class="slide-1"><a href="https://www.sescon.org.br/site/" target="blank">  São Paulo</a></div>
+                            <div class="slide-1"><a href="http://sescon-rj.org.br" target="blank"> Rio de Janeiro</a></div> 
+                        </div>
                     </div>
+    
                     <div class="flags"> 
                         <div><img id="bandeira" onclick="MudarCor()" src="./src/img/br.png" alt=""></div>
                         <div><img id="bandeira" src="./src/img/ch.png" alt=""></div>
@@ -52,6 +55,9 @@
                 vertical: true,
                 horizontal: false,            
             });
-        </script>
+
+            $('.box-menu-cidades').click(function (){
+                $('#menuCidades').hide()
+            })        </script>
     </body>
     </html>
