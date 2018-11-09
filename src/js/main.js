@@ -1,7 +1,7 @@
 let bandeiras = document.querySelectorAll('#bandeira')
 let legendaFlag = document.querySelector('#texto-flag')
 let menuSlider = document.querySelector('#menuCidades')
-
+        menuSlider.style.display = 'none'
 function MudarCor(){
     legendaFlag.style.display = 'none'
     bandeiras[1].classList.add('grayscale')
